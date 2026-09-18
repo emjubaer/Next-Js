@@ -11,21 +11,23 @@ const Navbar = () => {
         <Link href="/about">About Us</Link>
       </li>
       <li>
-        <Link href= "/blogs">Blogs</Link>
+        <Link href="/blogs">Blogs</Link>
       </li>
       <li>
         <Link href="/development">Development</Link>
       </li>
-        <li>
-          <Link href="/about/contactus">Contact Us</Link>
-        </li>
-        <li>
-          <Link href="/dashboard">Dashboard</Link>
-        </li>
-        <li>
-          <Link href="/users">Users</Link>
-        </li>
-
+      <li>
+        <Link href="/about/contactus">Contact Us</Link>
+      </li>
+      <li>
+        <Link href="/dashboard">Dashboard</Link>
+      </li>
+      <li>
+        <Link href="/users">Users</Link>
+      </li>
+      <li>
+        <Link href="/foods">Foods</Link>
+      </li>
     </>
   );
   return (
@@ -61,9 +63,7 @@ const Navbar = () => {
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {links}
-          </ul>
+          <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end">
           <a className="btn">Button</a>
